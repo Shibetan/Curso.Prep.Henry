@@ -5,12 +5,22 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+  if(x>y)
+    return x;
+  else if(y>x)
+    return y
+    else //son iguales
+    return y;
 }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+  if(edad>=18)
+    return 'Allowed'
+  else
+    return 'Not allowed'
 }
   
 function conection(status) {
@@ -19,6 +29,13 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+  var estado;
+  switch(status){
+    case 1:estado='Online';break;
+    case 2:estado='Away';break;
+    default:estado='Offline';break;
+  }
+  return estado;
 }
 
 function saludo(idioma) {
@@ -28,6 +45,14 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  var saludo;
+  switch(dioma){
+    case 'aleman':saludo='Guten Tag!';break;
+    case 'mandarin':saludo='Ni Hao!';break;
+    case 'ingles':saludo='Hello!';break;
+    default:saludo='Hola!';break;
+  }
+  return saludo;
 }
 
 function colors(color) {
