@@ -70,7 +70,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1.length==str.length)
+  if(str1.length==str2.length)
     return true
   else
     return false
@@ -148,19 +148,19 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  return(Math.round(num))
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  return(Math.ceil(num))
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  return(Math.random() )
 }
 
 function esPositivo(numero) {
@@ -197,7 +197,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return('Hola '+nombre)
+  return('Hola '+nombre+'!')
   
 }
 
@@ -226,7 +226,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return(euro/1.20)
+  return(euro*1.20)
 }
 
 
@@ -239,7 +239,7 @@ function esVocal(letra){
   var mensaje
   if(letra.length>1)
     return("Dato incorrecto")
-  if(letra=='a'||letra=='e'||letra=='i'||letra='o'||letra=='u')
+  if(letra=='a'||letra=='e'||letra=='i'||letra=='o'||letra=='u')
     return('Es vocal')
   else
     return('Dato incorrecto')
