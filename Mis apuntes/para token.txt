@@ -4,5 +4,9 @@ git push https://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@github.com/Shibetan/Cu
 git push https://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@github.com/Shibetan/Prep-course.git
 git push https://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@github.com/Shibetan/repositorio-henry2.git
 
+para PC
+git push https://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@github.com/Shibetan/Curso.Prep.Henry.git
+
+
 token: CursoPrepHenry
 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
