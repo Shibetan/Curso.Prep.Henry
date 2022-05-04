@@ -1,14 +1,6 @@
 sinnecesidadde autenticacion
 git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUAB_USERNAME>/<REPOSITORY_NAME>.git
-git push https://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@github.com/Shibetan/Curso.Prep.Henry.git
-git push https://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@github.com/Shibetan/Prep-course.git
-git push https://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@github.com/Shibetan/repositorio-henry2.git
+SoyHenryv1
+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
 
-para PC
-git push https://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@github.com/Shibetan/Curso.Prep.Henry.git
-
-HenryPC
-git push https://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@github.com/Shibetan/Curso.Prep.Henry.git
-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
-token: CursoPrepHenry
-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
+git push https://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@github.com/Shibetan/Curso.Prep.Henry.git
